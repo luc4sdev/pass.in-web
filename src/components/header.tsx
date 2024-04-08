@@ -8,7 +8,7 @@ export function Header() {
 
 
             <nav className='flex items-center gap-5'>
-                <NavLink href='/eventos'>Eventos</NavLink>
+                <NavLink actual href='/eventos'>Eventos</NavLink>
                 <NavLink href='/participantes'>Participantes</NavLink>
             </nav>
         </div>
